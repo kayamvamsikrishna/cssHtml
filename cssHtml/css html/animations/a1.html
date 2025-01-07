@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .a{
+            width: 100px;
+            background-color: red;
+            padding: 100px;
+            border: 3px solid black;
+            border-radius: 50%;
+           animation: m linear 5s infinite 0s; <!-- animationName animationTimingFunction animationIterationCount animationDelay-->
+          
+        }
+        @keyframes m{
+            0%,100%{
+                top: 0px;
+                left: 0px;
+                position: relative;
+                background-color: red;
+            }
+            25%{
+                top: 0px;
+                left: 200px;
+                position: relative;
+                background-color: orange;
+            }
+           50%{
+                top: 200px;
+                left: 200px;
+                position: relative;
+                background-color: yellow;
+            }
+            75%{
+                top: 200px;
+                left: 0px;
+                position: relative;
+                border-color: white;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div>BANGARAM</div>
+    </div>
+</body>
+</html>

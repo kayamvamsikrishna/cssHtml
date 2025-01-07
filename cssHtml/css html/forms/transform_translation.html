@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <title>vamsi</title>
+    <style>
+        .c{
+            margin: 100px auto;
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            
+        }
+        .c>.o{
+           height: inherit;
+           width: inherit;
+           transition: all 5s linear 5s;
+           
+        }
+        .c:hover>.o{
+           transform: scale(4);
+           
+        }
+        /*--------*/
+        .c>.c1,.c>.c3,.c>.c5,.c>.c7,.c>.c9{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: inherit;
+            width: 50%;
+            
+           
+        }
+        .c:hover>.c1,.c:hover>.c3,.c:hover>.c5,.c:hover>.c7,.c:hover>.c9{
+            transform: translateX(-250px)
+        }
+        
+        /*--------*/
+        /*--------*/
+        .c>.c2,.c>.c4,.c>.c6,.c>.c8,.c>.c10{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            height: inherit;
+            width: 50%;
+            
+        
+        }
+        .c:hover>.c2,.c:hover>.c4,.c:hover>.c6,.c:hover>.c8,.c:hover>.c10{
+            transform: translateX(250px)
+        }
+         /*--------*/
+         .c>.c1,.c>.c2{
+            transition: all 1s linear 4s;
+         }
+         .c>.c3,.c>.c4{
+            transition: all 1s linear 3s;
+         }
+         .c>.c5,.c>.c6{
+            transition: all 1s linear 2s;
+         }
+         .c>.c7,.c>.c8{
+            transition: all 1s linear 1s;
+         }
+         .c>.c9,.c>.c10{
+            transition: all 1s linear 0s;
+         }
+
+         .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8{
+            background-color: black;
+         }
+         .c9,.c10{
+            background-color: transparent;
+         }
+         img{
+            height: inherit;
+            width: 100%;
+            position: absolute;
+           
+         }
+    </style>
+</head>
+<body>
+    <div class="c">
+        <img class="o" src="../IMAGE HANDLING/daddy mummy.jpg" alt="">
+        <div class="c1"><img src="../images/door2.png" alt=""></div>
+        <div class="c2"><img src="../images/door2.png" alt=""></div>
+        <div class="c3"><img src="../images/Door-PNG-Pic.png" alt=""></div>
+        <div class="c4"><img src="../images/Door-PNG-Pic.png" alt=""></div>
+        <div class="c5"><img src="../images/wooden-texture.jpg" alt=""></div>
+        <div class="c6"><img src="../images/wooden-texture.jpg" alt=""></div>
+        <div class="c7"><img src="../images/door3.png" alt=""></div>
+        <div class="c8"><img src="../images/door3.png" alt=""></div>
+        <div class="c9"><img src="../images/pngwin.png" alt=""></div>
+        <div class="c10"><img src="../images/pngwin.png" alt=""></div>
+        
+      
+    </div>
+</body>
+</html>

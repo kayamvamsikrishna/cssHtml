@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid</title>
+    <style>
+        .p{
+            display: grid;
+            grid-template-columns: 60% 20% 20%;
+            grid-template-rows: 300px;
+            gap: 10px; 
+            
+           
+        }
+        .p>.i{
+            background-color: aqua;
+            
+        }
+        .m{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .l{
+            margin: 20px auto;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="l">
+        <div class="p">
+            <div class="i m">1</div>
+            <div class="i n">2</div>
+            <div class="i o">3</div>
+            <div class="i p">4</div>
+            <div class="i q">5</div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 10px;
+    }
+    .c{
+        padding: 50px;
+        border-radius: 50%;
+        animation: u alternate 1s infinite ;
+    }
+    @keyframes u {
+        0%{
+            transform: translateY(0px);
+        }
+        100%{
+            transform: translateY(-50px);
+        }
+    }
+
+    .o{
+        background-color: aqua;
+        animation-delay: 0s;
+        
+    }
+    .t{
+        background-color: red;
+        animation-delay: 1s;
+    }
+    .th{
+        background-color: green;
+        animation-delay: 0s;
+    }
+    .f{
+        background-color: yellow;
+        animation-delay: 1s;
+    }
+    .fi{
+        background-color: orange;
+        animation-delay: 0s;
+    }
+    .s{
+        background-color: blueviolet;
+        animation-delay: 1s;
+    }
+    .se{
+        background-color: sienna;
+        animation-delay: 0s;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="c o"></div>
+        <div class="c t"></div>
+        <div class="c th"></div>
+        <div class="c f"></div>
+        <div class="c fi"></div>
+        <div class="c s"></div>
+        <div class="c se"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-image: linear-gradient(45deg, red,orange,yellow);
+
+        }
+        button{
+            margin-left: 20px;
+        }
+        table{
+            width: 100%;
+            height: 100%;
+        }
+        legend{
+            padding: 10px;
+            background-image: linear-gradient(45deg, red,orange,yellow);
+            border-radius: 10%;
+            text-align: center;
+        }
+        [placeholder]{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form >
+            <fieldset>
+                <legend>Student Info</legend>
+                <table >
+                    <tr>
+                        <td><label for="">Student Name</label></td>
+                        <td><input type="text" placeholder="ENTER STUDENT NAME"></td>
+                        <td><label for="">Father Name</label></td>
+                        <td><input type="text" placeholder="ENTER THE FATHER NAME"></td>
+                        <td><label for="">Mother Name</label></td>
+                        <td><input type="text" placeholder="ENTER THE MOTHER NAME"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="">Date of Birth</label></td>
+                        <td colspan="6"><input type="date" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email</label></td>
+                        <td colspan="6"><input type="email"  placeholder="ENTER EMAIL"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Phone</label></td>
+                        <td colspan="6"><input type="phone" placeholder="ENTER MOBILE NUMBER"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Gender</label></td>
+                        <td >
+                        <input type="radio" name="a">male  
+                        <input type="radio" name="a">female  
+                        <input type="radio" name="a">other 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Address</label></td>
+                        <td colspan="6"><textarea name="" id=""></textarea></td> <!--text area is a tag-->
+                    </tr>
+                    <tr>
+                        <td><label for="">Date of Birth</label></td>
+                        <td colspan="6"><input type="date" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Phone</label></td>
+                        <td colspan="6"><input type="phone" placeholder="ENTER MOBILE NUMBER"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Languages</label> </td>
+                        <td>
+                            <input type="checkbox">Telugu<br>
+                        <input type="checkbox">Kannada<br>
+                        <input type="checkbox">Hindi<br>
+                        <input type="checkbox">Odia<br>
+                        <input type="checkbox">Tamil<br>
+                        <input type="checkbox">English</td><br>
+
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="">State</label></td>
+                        <td>
+                            <select >
+                            <option value="">..select..</option>
+                            <option value="">Andhra Pradesh</option>
+                            <option value="">Tamilnadu</option>
+                            <option value="">Karnataka</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Adhar Card</label></td>
+                        <td><input type="file" ></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;" colspan="6">
+                            <button>Submit</button>
+                            <button>Reset</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </fieldset>
+        </form>
+
+    </div>  
+</body>
+</html>
